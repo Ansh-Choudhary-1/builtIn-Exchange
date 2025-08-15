@@ -27,7 +27,7 @@ function App() {
       <header className="flex items-center justify-between p-4 sm:p-6 max-w-7xl mx-auto">
         <div className="flex items-center gap-3">
           <img src ="/logo.png" alt="Logo" className="w-8 h-8 sm:w-10 sm:h-10 lg:w-12 lg:h-12 rounded-sm" />
-          <span className="text-lg sm:text-xl font-bold text-gray-900">BuiltInExchange</span>
+          <span className="text-lg sm:text-xl font-bold text-gray-900">Built<span className="text-[#f4bb18]">In</span>Exchange</span>
         </div>
         
          <div className="flex items-center gap-2 sm:gap-4">
