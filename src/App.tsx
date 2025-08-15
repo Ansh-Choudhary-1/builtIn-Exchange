@@ -8,7 +8,8 @@ import {
   Share, 
   Twitter, 
   Github,
-  Mail
+  Mail,
+  Instagram
 } from 'lucide-react';
 
 function App() {
@@ -26,15 +27,21 @@ function App() {
       <header className="flex items-center justify-between p-6 max-w-7xl mx-auto">
         <div className="flex items-center gap-3">
           <img src ="/logo.png" alt="Logo" className="w-12 h-12 rounded-sm" />
-          <span className="text-xl font-bold text-gray-900">BuiltInExchange</span>
+          <span className="text-xl font-bold text-gray-900">Built<span className="text-[#f6ba1a]">In</span>Exchange</span>
         </div>
         
          <div className="flex items-center gap-4">
           <button className="w-10 h-10 rounded-lg border border-gray-200 bg-white/80 flex items-center justify-center hover:bg-white transition-colors">
-            <Repeat className="w-5 h-5 text-gray-600" />
+            <a href='https://www.instagram.com/builtinexchange/'><Instagram className="w-5 h-5 text-gray-600" /></a>
           </button>
           <button className="w-10 h-10 rounded-lg border border-gray-200 bg-white/80 flex items-center justify-center hover:bg-white transition-colors">
-            <Share className="w-5 h-5 text-gray-600" />
+            <a
+              href="https://mail.google.com/mail/?view=cm&to=builtinexchange@gmail.com"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <Mail className="w-5 h-5" />
+            </a>
           </button>
           <button className="w-10 h-10 rounded-lg border border-gray-200 bg-white/80 flex items-center justify-center hover:bg-white transition-colors">
             <Twitter className="w-5 h-5 text-gray-600" />
